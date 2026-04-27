@@ -1,6 +1,18 @@
-# tareas_estados
+### Documentació
 
-A new Flutter project.
+**Referències**
+- Apunts i explicacions del professor a classe.
+- Documentació oficial de Flutter: https://docs.flutter.dev/
+- Documentació oficial de Dart: https://dart.dev/guides
+- Materials i enunciat del seminari sobre Flutter i organització de tasques per estats.
+
+**Ús de la IA generativa**  
+S’ha utilitzat ChatGPT com a suport durant el desenvolupament de l’exercici, especialment en els següents aspectes:
+- La creació de l’estructura inicial de l’aplicació Flutter
+- Resolució problemes existents al executar "flutter doctor"
+- La implementació de la lògica per agrupar les tasques segons el seu estat (`To do`, `In progress` i `Done`) mitjançant el filtratge amb `where`.
+- La implementació del botó per avançar una tasca al següent estat i l’ús de `setState()` per reflectir els canvis a la pantalla.
+
 
 ## Getting Started
 
